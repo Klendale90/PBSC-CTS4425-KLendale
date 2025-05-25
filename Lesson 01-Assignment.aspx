@@ -1,0 +1,55 @@
+﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="Default.aspx.vb" Inherits="_Default" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <style type="text/css">
+        .style1
+        {
+            width: 300px;
+        }
+        .style2
+        {
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 700;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+    
+        <table class="style1" bgcolor="#CC99FF" border="3" cellpadding="5">
+            <tr>
+                <td class="style2">
+                    Yahoo!</td>
+                <td>
+                    <asp:Image ID="Image1" runat="server" Height="128px" 
+                        ImageUrl="~/Yahoo-Logo-2009-2013.png" Width="235px" />
+                </td>
+            </tr>
+            <tr>
+                <td style="font-weight: 700; text-align: center; font-family: Arial, Helvetica, sans-serif">
+                    Google</td>
+                <td>
+                    <asp:Image ID="Image2" runat="server" Height="61px" 
+                        ImageUrl="~/google-logo-transparent.png" Width="208px" />
+                </td>
+            </tr>
+            <tr>
+                <td style="font-weight: 700; text-align: center">
+                    MSN</td>
+                <td>
+                    <asp:Image ID="Image3" runat="server" Height="123px" 
+                        ImageUrl="~/msn-logo-png-transparent.png" Width="130px" />
+                </td>
+            </tr>
+        </table>
+    
+    </div>
+    </form>
+</body>
+</html>
